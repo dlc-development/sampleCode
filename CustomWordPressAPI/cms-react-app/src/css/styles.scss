@@ -1,0 +1,96 @@
+@import './theme';
+@import 'components/Topnav.scss';
+
+.section-block{
+    padding: 100px 0;
+}
+@media (max-width: $smallBreakPoint) {
+    .section-block{
+        padding: 40px 0;
+    }
+}
+a.btn-outline-light{
+    &:hover{
+        color:$blue;
+    }
+}
+.hero-header{
+    font-size: 62px;
+    margin-bottom: 40px;
+}
+@media (max-width: $smallBreakPoint) {
+    .hero-header{
+        font-size: 32px;
+    }
+}
+.lightblue-background{
+    background-color: rgba(0, 114, 188, .08);
+}
+.three-col-row{
+    padding-left:8.33333333% ;
+    padding-right:8.33333333% ;
+}
+
+.position-relative{
+    position: relative;
+}
+
+.center-spacer{
+    position: relative;
+    &.stripe{
+        &::after{
+            content: ' ';
+            display: block;
+            border-left:2px solid #0072bc; 
+            position:absolute; 
+            width:2px;
+            height:100%; 
+            left:calc(50% - 2px);
+        }
+    }
+}
+
+button.btn, a.btn{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: .75em;
+    &.extra-pad{
+        padding: 1em 3.75em;
+    }
+}
+
+button.btn-link{
+    color: $darkBlue;
+}
+
+button.btn-primary , a.btn-primary {
+    background-color:$blue ;
+    border-color: $blue;
+    color:white;
+    &:hover{
+        background-color:$orange ;
+        border-color: $orange;
+        color:black
+    }
+    
+}
+.accordion-button{
+    font-size: large;
+}
+
+.card.nomad-card{
+    -webkit-box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.20); 
+    box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.20);
+    border-color: transparent ;
+    margin-bottom: 40px;
+    .card-body{
+        padding: 30px;
+
+        img{
+            float: left;
+            max-height: 100px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+        }
+    }
+}

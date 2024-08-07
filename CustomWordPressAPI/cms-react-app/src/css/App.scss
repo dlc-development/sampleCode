@@ -1,0 +1,43 @@
+@import '_theme.scss';
+
+body{
+    padding: 0;
+}
+@font-face {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
+    src: url('https://fonts.googleapis.com/css?family=Arvo');
+    font-display: swap;
+}
+// .App{
+//     // font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+// }
+
+h1, h2, h3, h4, h5{
+    color:$darkBlue;
+    font-family: 'Arvo', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+a, .nav-link, .nav a.nav-link, .btn{
+    color:$darkBlue;
+    &:hover{
+        color:$blue;
+    }
+}
+.hidden{
+    display: none!important;
+}
+
+.display-mobile{
+    display: none!important;
+}
+
+@media (max-width: $smallBreakPoint) {
+    .display-mobile{
+        display: block!important;
+    }
+    .display-desktop{
+        display: none!important;
+    }
+}

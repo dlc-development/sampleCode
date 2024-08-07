@@ -1,0 +1,52 @@
+@import '../_theme.scss';
+.footer{
+    color:$darkBlue;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    font-size: smaller;
+    h3{
+        color:$blue;
+    }
+    span.footer-title{
+        font-weight: bold;
+        color:$blue;
+        font-size: large;
+    }
+    .nav .nav-link{
+        padding-left: 0;
+    }
+    form{
+        text-align: right;
+        padding-left: 50px;
+    }
+    [type="submit"]{
+        background-color: $darkBlue;
+        border: $darkBlue;
+        padding: 8px 60px;
+    }
+    .footer-bottom{
+        padding-top: 60px;
+        .footer-bottom-left{
+            font-size: medium;
+        }
+        .footer-bottom-right{
+            text-align: right;
+        }
+    }
+}
+@media (max-width: $smallBreakPoint) {
+    .footer{
+        text-align: center;
+        form {
+            text-align: center;
+            padding-left: 0;
+            padding-top: 50px;
+        }
+        .footer-bottom-right, .footer-bottom-left{
+            .nav{
+                justify-content: center !important;
+            }
+        }
+    }
+    
+}

@@ -1,0 +1,63 @@
+.secondary-hero button.accordion-button, .secondary-hero .btn.accordion-button {
+    background-color: white;
+    border-color: white;
+    &:hover{
+        background-color: white;
+        border-color: white;
+    }
+}
+
+.compareGrid{
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    width: 100%;
+    position: relative;
+    img{
+        max-width: 200px;
+        max-height: 80px;
+        height: auto;
+        position: absolute;
+        bottom: 82px;
+        left: 39px;
+    }
+    .grid-item{
+        padding: 20px;
+        text-align: center;
+        // width: 200px;
+        position: relative;
+         padding-top: 120px;
+        
+
+        button{
+            // background-color: blue !important;
+        }
+    }
+   
+}
+@media (max-width: 800px) {
+    .compareGrid {
+      flex-direction: column;
+
+      img{
+        max-width: 200px;
+        max-height: 80px;
+        height: auto;
+        position: unset;
+        bottom: 0;
+        left: 0;
+        display: block;
+        margin: auto;
+    }
+
+      .grid-item{
+        text-align: center;
+        // width: 200px;
+        position: relative;
+         padding-top: 20px;
+        
+         
+    }
+    }
+
+  }

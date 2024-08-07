@@ -1,0 +1,252 @@
+{
+    "admissions": {
+      "English Test": {
+        "names": [
+          "TOEFL",
+          "IELTS",
+          "PTE"
+        ],
+        "description": "Upload one of the following English Test result documents:"
+      },
+      "generic": {
+        "names": [
+          "generic"
+        ],
+        "description": "Upload a generic document:"
+      },
+      "Entrance Exam Test": {
+        "names": [
+          "GRE",
+          "GMAT",
+          "SAT"
+        ],
+        "description": "Upload one of the following Entrance Exam Test result documents:"
+      },
+      "Academic Transcript": {
+        "names": [
+          "10th/11th Transcript",
+          "Undergraduate Transcript"
+        ],
+        "description": "Upload one of the following Academic Transcript (written in English) documents:"
+      },
+      "Academic Certificate": {
+        "names": [
+          "Provisional Certificate",
+          "Degree Certificate"
+        ],
+        "description": "Upload one of the following Academic Certificate (written in English) documents:"
+      },
+      "Statement of Purpose (SOP)": {
+        "names": [
+          "Statement of Purpose (SOP)"
+        ],
+        "description": "Upload your Statement of Purpose (SOP) document in .doc/.docx format and < 500 words:"
+      },
+      "Resume": {
+        "names": [
+          "Resume"
+        ],
+        "description": "Upload your Resume (written in English) document:"
+      },
+      "3 Letters of Recommendation": {
+        "names": [
+          "Letter of Recommendation (LOR)"
+        ],
+        "description": "Upload at least 3 Letter of Recommendations (LOR) documents:"
+      },
+      "Identification": {
+        "names": [
+          "Passport"
+        ],
+        "description": "Please upload one the following Identification (both sides) documents:"
+      }
+    },
+    "student_loan": {
+      "generic": {
+        "names": [
+          "generic"
+        ],
+        "description": "Upload a generic document:"
+      },
+      "Pan Card": {
+        "names": [
+          "Pan Card"
+        ]
+      },
+      "Aadhar Card": {
+        "names": [
+          "Aadhar Card"
+        ]
+      },
+      "Passport": {
+        "names": [
+          "Passport"
+        ]
+      },
+      "English Test": {
+        "description": "Please upload one of the following English Test result documents:",
+        "names": [
+          "TOEFL",
+          "IELTS",
+          "PTE"
+        ]
+      },
+      "Entrance Exam Test": {
+        "description": "Please upload one of the following Entrance Exam Test result documents:",
+        "names": [
+          "GRE",
+          "GMAT",
+          "SAT"
+        ]
+      },
+      "Academic Documents": {
+        "description": "Please upload your 10th, 12th & Undergraduate Degree (if applicable) - All Semester Individual Mark-Sheets:",
+        "names": [
+          "Prior University Transcripts & Degree (10th, 12th, & Degree)"
+        ]
+      },
+      "Admission Letter (if available)": {
+        "description": "Upload your Admissions Letter(s) for the universities you were admitted to:",
+        "names": [
+          "Admissions Letter"
+        ]
+      },
+      "Resume": {
+        "names": [
+          "Resume"
+        ],
+        "description": "Upload your Resume (written in English) document:"
+      },
+      "Passport Size Photo": {
+        "names": [
+          "Passport Size Photo"
+        ]
+      },
+      "3 months Salary slips (if applicable)": {
+        "names": [
+          "3 months Salary slips"
+        ],
+        "description": "Please upload your salary slips if you are currently working:"
+      },
+      "6 months Bank Statements (if applicable)": {
+        "names": [
+          "6 months Bank Statements"
+        ],
+        "description": "Please upload your bank statements if you are currently working:"
+      },
+      "Form 16 (if applicable)": {
+        "names": [
+          "Form 16"
+        ],
+        "description": "Please upload your Form 16 if you are currently working:"
+      },
+      "Mother & Father Pan Card": {
+        "description": "Please upload Pan Card (both sides):",
+        "names": [
+          "Pan Card"
+        ]
+      },
+      "Mother & Father Aadhar Card": {
+        "description": "Please upload Adhar Card (both sides):",
+        "names": [
+          "Aadhar Card"
+        ]
+      },
+      "Mother & Father Passport Size Photo": {
+        "description": "Please upload Passport Size Photo:",
+        "names": [
+          "Passport Size Photo"
+        ]
+      },
+      "Co-Applicant Electricity Bill": {
+        "description": "Please upload Eletricity Bill of co-applicant:",
+        "names": [
+          "Electricity Bill"
+        ]
+      },
+      "Co-Applicant Pan Card": {
+        "description": "Please upload Pan Card (both sides):",
+        "names": [
+          "Pan Card"
+        ]
+      },
+      "Co-applicant Aadhar Card": {
+        "description": "Please upload Adhar Card (both sides):",
+        "names": [
+          "Aadhar Card"
+        ]
+      },
+      "Co-applicant 3 months Salary slips (if Salaried Job)": {
+        "names": [
+          "3 months Salary slips"
+        ],
+        "description": "Please upload your salary slips if you are currently working:"
+      },
+      "Co-applicant 6 months Bank Statements": {
+        "names": [
+          "6 months Bank Statements"
+        ],
+        "description": "Please upload 6 months salary credited Bank Statement is co-applicant is salaried, and 6 month bank statement (current & saving) for self-employed business:"
+      },
+      "Co-Applicant Last 2 Years Form 16 (if Salaried Job)": {
+        "description": "Please upload Last 2 Years Form 16 of co-applicant:",
+        "names": [
+          "Last 2 Years Form 16"
+        ]
+      },
+      "Co-Applicant Latest 2 year ITR with P&L & Balance sheet (if Self-Employed Business)": {
+        "description": "Please upload Latest 2 year ITR with P&L & Balance sheet of co-applicant:",
+        "names": [
+          "Latest 2 year ITR with P&L & Balance sheet"
+        ]
+      },
+      "Co-Applicant Business Proof (if Self-Employed Business)": {
+        "description": "Please upload Business Proof of co-applicant:",
+        "names": [
+          "Business Proof"
+        ]
+      },
+      "Collateral Documents Registered Sale Agreement (if applicable)": {
+        "names": [
+          "Registered Sale Agreement (All chains)"
+        ],
+        "description": "Please upload Sale Agreement:"
+      },
+      "Collateral Documents Share Certificate (if applicable)": {
+        "names": [
+          "Share Certificate"
+        ],
+        "description": "Please upload Share Certificate:"
+      },
+      "Collateral Documents All Property Related Documents- e.g- Sanction Plan, Tax paid Receipt (if applicable)": {
+        "description": "Please upload All Property Related Documents- e.g- Sanction Plan, Tax paid Receipt:",
+        "names": [
+          "All Property Related Documents- e.g- Sanction Plan, Tax paid Receipt"
+        ]
+      },
+      "Collateral Documents NA conversion certificate in case of Plot (if applicable)": {
+        "description": "Please upload NA conversion certificate in case of Plot:",
+        "names": [
+          "NA conversion certificate in case of Plot"
+        ]
+      },
+      "Collateral documents NA conversion certificate in case of Plot (if applicable)": {
+        "description": "Please upload NA conversion certificate in case of Plot:",
+        "names": [
+          "NA conversion certificate in case of Plot"
+        ]
+      },
+      "Collateral Documents Society NOC (if applicable)": {
+        "description": "Please upload Society NOC:",
+        "names": [
+          "Society NOC"
+        ]
+      },
+      "Collateral Documents Any other Documents associated with Property (if applicable)": {
+        "description": "Please upload Any other Documents associated with Property:",
+        "names": [
+          "Any other Documents associated with Property"
+        ]
+      }
+    }
+  }

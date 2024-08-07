@@ -1,0 +1,123 @@
+@import '../theme';
+
+.section-block.loans-section{
+    padding-bottom: 25px;
+    padding-top: 75px;
+    a{
+        text-decoration: none;
+        color:$blue;
+    }
+}
+.city-section{
+    padding: 0 !important;
+    img{
+        width:100%;
+        position: relative;
+        bottom: -2px;
+        height: auto;
+    }
+}
+.about-us-section{
+    border-top: 8px solid $blue;
+    background: $lightBlue;
+    background: linear-gradient(90deg, $lightBlue 0%, rgba(255,255,255,1) 100%);
+    position: relative;
+    color:$darkBlue;
+    padding-top: 50px;
+    padding-bottom: 125px;
+    p strong{
+        color:$blue;
+    }
+    .image-col{
+        position: relative;
+        img{
+            position: absolute;
+            bottom: -100px;
+        }
+    }
+    
+}
+
+@media (max-width: $smallBreakPoint) {
+    .about-us-section{
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+        .image-col{
+            position: relative;
+            img{
+                position: initial;
+                margin: 20px auto;
+            }
+        }
+        
+    }
+    .loans-section{
+        padding-top: 20px !important;
+    }
+}
+
+.student-load-options{
+    background-color: $blue;
+    color:white;
+    h2{
+        color:white;
+    }
+    a:hover{
+        color:$blue;
+    }
+}
+@media (max-width: $smallBreakPoint) {
+    div.student-load-options{
+        padding-top: 0!important;
+        h2{
+            padding-top: 20px;
+        }
+    }
+}
+
+.guidance-section{
+    background-color: $darkBlue;
+    color:white;
+    padding-bottom: 100px;
+    h2{
+        color:white;
+    }
+    .guidance-image{
+        position: relative;
+        img{
+            position: absolute;
+            max-width: 120%;
+            bottom: -50px;
+        }
+    }
+    a:hover{
+        color:$blue;
+    }
+}
+
+@media (max-width: $smallBreakPoint) {
+    div.guidance-section{
+        padding-top: 0!important;
+    }
+}
+
+@media (max-width: $smallBreakPoint) {
+    .guidance-section{
+        .guidance-image{
+            position: relative;
+            img{
+                position: relative;
+                max-width: 100%;
+                bottom: -50px;
+            }
+        }
+        a:hover{
+            color:$blue;
+        }
+    }
+}
+
+.clearfix{
+    width: 100%;
+    clear: both;
+}

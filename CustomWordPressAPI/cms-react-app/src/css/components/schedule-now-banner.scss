@@ -1,0 +1,36 @@
+@import '../theme';
+
+.schedule-consultation-section{
+    background-color: $orange;
+    color:white;
+    text-align: center;
+    h3{
+        color:white;
+        font-style: italic;
+        display: inline-block;
+        margin-bottom: 0;
+        vertical-align: middle;
+        margin-right: 50px;
+
+    }
+    .schedule-now-header{
+        color:white;
+        font-style: italic;
+        display: inline-block;
+        margin-bottom: 0;
+        vertical-align: middle;
+        margin-right: 50px;
+        font-size:xx-large;
+        font-family: 'Arvo', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}
+
+@media (max-width: $smallBreakPoint) {
+    .schedule-consultation-section{
+        h3{
+            margin-bottom: 20px;
+            display: block;
+            margin-right:0 ;
+        }
+    }
+}

@@ -1,0 +1,33 @@
+@import '../theme';
+
+.testimonials{
+    h5{
+        font-size: 1.5rem;
+    }
+    h2{
+        text-align: center;
+        color:$blue;
+        margin-bottom: 25px;
+        position: relative;
+        z-index: 1;
+    }
+    .envelope{
+        position: absolute;
+        z-index: 0;
+    }
+    
+}
+
+@media (max-width: $smallBreakPoint) {
+    .testimonials{
+    
+        h2{
+            position: relative;
+            z-index: 1;
+        }
+        .envelope{
+            z-index: 0;
+        }
+        
+    }
+}

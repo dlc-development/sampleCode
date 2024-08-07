@@ -1,0 +1,129 @@
+@import '../theme';
+
+.menu-holder{
+    width:100%;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu{
+    top:calc(100% - 2px);
+}
+
+.mobile-link{
+    display: none !important;
+}
+
+.top-nav-login{
+    position: absolute; 
+    right: 60px; 
+    display: block !important; 
+    top: 56px; 
+    text-align:center;
+    z-index: 1;
+    
+    a{
+        text-decoration: none;
+        color:$blue;
+        margin: 10px;
+    }
+    .btn{
+        color:red;
+        margin-top: 10px;
+        &:hover{
+            color:white;
+        }
+    }
+}
+
+.top-nav{
+    // padding-top: 50px !important;
+    -webkit-box-shadow: 0px 0px 14px 2px rgba(0,0,0,.5); 
+    box-shadow: 0px 0px 14px 2px rgba(0,0,0,.5);
+    position: relative;
+    z-index: 1;
+    .dropdown-menu{margin-top:0}
+    .navbar-brand{
+        img{
+            max-width:200px;
+            margin:auto;
+        }
+    }
+
+    
+    
+    .mobile-link{
+        display: none;
+    }
+    &.is-landing{
+        min-height: 150px;
+    }
+    // .landing-logo{
+    //     position: absolute;
+    //     left: calc(50% - 100px);
+    // }
+    .navbar-collapse{
+        padding-top: 16px;
+        // padding-left: 10%;
+        .navbar-nav{
+            justify-content: center;
+            width:85%;
+        }
+        .nav-link{
+            padding-right: 20px !important;
+            padding-left: 20px !important;
+        }
+
+        .active {
+            color: $blue !important;
+            background-color: #0071bc56 !important;
+            border-radius: 5px;
+            font-weight: 500;
+        }
+    }
+    .top-nav-login{
+        position: absolute; right: 60px; display: block; top: 0; text-align:center;
+        a{
+            text-decoration: none;
+            color:$blue;
+            margin: 10px;
+        }
+        .btn{
+            color:red;
+            margin-top: 10px;
+            &:hover{
+                color:white;
+            }
+        }
+    }
+}
+
+@media (max-width: $smallBreakPoint) {
+
+    .top-nav-login{
+        display: none !important;
+    }
+
+    .mobile-link{
+        display: initial !important;
+    }
+    .top-nav{
+        padding-top: 0!important;
+        .landing-logo{
+            left: calc(50% - 75px);
+        }
+        .navbar-brand{
+            img{
+                max-width: 150px;
+                
+            }
+        }
+        
+
+        .top-nav-login{
+            display: none !important;
+        }
+    }
+    .top-nav.is-landing{
+        min-height: 100px;
+    }
+    
+}

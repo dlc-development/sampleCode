@@ -1,0 +1,42 @@
+@import '../theme';
+.admissions-hero{
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(240,240,240,1) 100%);
+    padding-bottom: 250px;
+    padding-top: 100px;
+    .row:first-child{
+        text-align: center;
+        p{
+            font-size: 1.3rem;
+        }
+        
+    }
+    h1, h2{
+        color:$blue;
+    }
+    button{
+        background-color:$orange;
+        border-color: $orange;
+    }
+    .admissions-hero-city{
+        position: absolute;
+        bottom: -40px;
+        left: 0;
+        width: 100%;
+    }
+}
+
+@media (max-width: $smallBreakPoint) {
+    .admissions-hero{
+        padding-top: 40px;
+        padding-bottom: 100px;
+    }
+}
+
+.easy-process-section {
+    background-color: $blue;
+    color:white;
+    h2{
+        color:white;
+    }
+}

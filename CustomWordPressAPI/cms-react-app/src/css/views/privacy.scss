@@ -1,0 +1,35 @@
+table{
+    width:100%;
+    max-width: 1000px;
+    margin: auto;
+    border: 1px solid black;
+    margin-top: 15px;
+    td{
+        padding: 15px;
+        border-bottom: 1px solid black;
+        
+    }
+    td:first-child{
+        font-size:large;
+        background-color: darkgray;
+        color:white;
+        font-weight: bold;
+    }
+    &.three-col{
+        margin-top: 15px;
+        tr:first-child{
+            td{
+                background-color: darkgray;
+                color:white;
+                font-size: medium;
+                font-weight: normal;
+            }
+        }
+        td:first-child{
+            font-size:normal;
+            background-color: transparent;
+            color:black;
+            font-weight: normal;
+        }
+    }
+}
