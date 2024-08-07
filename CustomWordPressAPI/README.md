@@ -1,2 +1,1 @@
-# sampleCode
-# sampleCode
+This project was a bridge between a wordpress environment and a custom aws solution
