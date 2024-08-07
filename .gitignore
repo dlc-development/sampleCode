@@ -43,7 +43,3 @@
 /vendor/bundle
 
 /website-react/node_modules
-
-/cms-react-app/node_modules
-/cms-react-app/.env
-/cms-react-app/build
